@@ -1,0 +1,21 @@
+{
+  "name": "aws-security-group-manager",
+  "version": "1.0.0",
+  "description": "ip manager for aws security group",
+  "main": "index.js",
+  "repository": "https://github.com/zeakd/aws-security-group-manager",
+  "author": "zeakd",
+  "license": "MIT",
+  "bin": {
+    "aws-workspace": "./bin/index.js",
+    "aws-workspace-configure": "./bin/configure.js",
+    "aws-workspace-add": "./bin/add.js",
+    "aws-workspace-remove": "./bin/remove.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.2",
+    "inquirer": "^3.3.0",
+    "public-ip": "^2.3.5"
+  }
+}
